@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_background">#222222</color>
+    <color name="search_background">#DDDDDD</color>
+    <color name="detail_background">#88000000</color>
+
+</resources>

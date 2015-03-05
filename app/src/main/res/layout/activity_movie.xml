@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MovieActivity">
+
+    <!--
+    This layout is a portrait layout for the Movies
+    list/detail flow.
+
+    -->
+
+    <FrameLayout
+        android:id="@+id/movie_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@android:color/background_dark" />
+
+    <fragment
+        android:id="@+id/movie_list"
+        android:name="alm.moviesearch.fragments.MovieListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+
+</LinearLayout>
+
